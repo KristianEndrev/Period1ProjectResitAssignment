@@ -32,7 +32,7 @@ unset($lang_options[$current_lang]);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenue Au Cameroon/title>
+    <title>Bienvenue Au Cameroon</title>
     <link rel="stylesheet" href="index.css">
     
 </head>
@@ -53,7 +53,6 @@ unset($lang_options[$current_lang]);
                         <li><a href="food.php">GASTRONOMIE</a></li>
                 </ul>
                 
-
             </nav>
 
             
