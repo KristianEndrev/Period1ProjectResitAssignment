@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-italic';
+    src: url('fonts/Open_Sans/static/OpenSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('fonts/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-bold-italic';
+    src: url('fonts/Open_Sans/static/OpenSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'opensans-light';
+    src: url('fonts/Open_Sans/static/OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-light-italic';
+    src: url('fonts/Open_Sans/static/OpenSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'opensans-medium';
+    src: url('fonts/Open_Sans/static/OpenSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-meidum-italic';
+    src: url('fonts/Open_Sans/static/OpenSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'opensans-semi-bold';
+    src: url('fonts/Open_Sans/static/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-semi-bold-italic';
+    src: url('fonts/Open_Sans/static/OpenSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'opensans-extra-bold';
+    src: url('fonts/Open_Sans/static/OpenSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-extra-bold-italic';
+    src: url('fonts/Open_Sans/static/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+body
+{
+    font-family: 'opensans-bold';
+    margin: 0;
+    background-color: #79A2D4;
+    overflow-x: hidden;
+    color: white;
+}
+
+.history-section {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 60px 20px 80px;
+    text-align: center;
+    color: white;
+}
+
+.history-section h1 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+
+.history-subtitle {
+    max-width: 520px;
+    margin: 0 auto 40px;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px 28px;
+    margin-bottom: 40px;
+}
+
+.event-card {
+    background: transparent;
+    color: #1f2b3d;
+    border-radius: 16px;
+    padding: 18px 18px 20px;
+    /* box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18); */
+    text-align: left;
+    color: white;
+}
+
+.event-line {
+  display: inline-block;
+  width: 6px;          /* thickness of the line */
+  height: 60px;        /* length of the line */
+  border-radius: 999px;
+  background: #ffffff; /* white line, like the design */
+}
+
+.event-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.event-date {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.event-title {
+    font-size: 0.8rem;
+}
+
+.event-image-wrapper {
+    margin: 10px 0 12px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.event-image-wrapper img {
+    display: block;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.event-text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+   font-family: 'opensans-bold-italic';
+}
+
+/* view more button */
+.view-more-form {
+    margin-top: 10px;
+}
+
+.view-more-btn {
+    padding: 10px 26px;
+    border-radius: 999px;
+    border: none;
+    background: #1f3f73;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.view-more-btn:hover {
+    background: #274b86;
+}
+
+.view-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+ justify-content: end;
+}
+
+.view-less-btn {
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: none;
+  background: white;
+  color: #1f2b3d;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.view-less-btn:hover {
+  background: #b7b7b7;
+}
+
+.view-more-form
+{
+    margin: 0;
+}
+
+
+
