@@ -31,7 +31,7 @@ unset($lang_options[$current_lang]);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome To Cameroon</title>
     <link rel="stylesheet" href="food.css">
     
 </head>
