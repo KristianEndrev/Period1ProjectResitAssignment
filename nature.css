@@ -82,6 +82,11 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'oswald-bold';
+    src: url(fonts/Oswald/static/Oswald-Bold.ttf);
+}
+
 body
 {
     font-family: 'opensans-bold';
@@ -89,6 +94,7 @@ body
     background-color: #79A2D4;
     overflow-x: hidden;
 }
+
 
 .hero
 {
@@ -131,6 +137,107 @@ body
     text-align: center;
     padding: 7vw;
     justify-self: center;
-    width: 50vw;
+    width: 40vw;
     color: white;
+}
+
+.nature
+{
+    padding-inline: 3vw;
+}
+
+.mountains
+{
+    color: white;
+}
+
+.horizontal-line
+{
+    border-top: 0.5px solid #2A4178;
+    padding-bottom: 15vh;
+}
+
+.musala-white-box
+{
+    width: 90vw;
+    background-color: white;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-inline: 2vw;
+    padding-block: 1vw;
+    margin-bottom: 20vh;
+}
+
+.musala-white-box img
+{
+    width: 88vw;
+    height: 90vh;
+    border-radius: 2vw;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+
+}
+
+.musala-white-box p
+{
+    color: #2A4178;
+    font-family: 'oswald-bold';
+    font-size: 30px;
+    width: 55vw;
+    margin-bottom: 0;
+}
+
+.top-peak
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -15vh;
+}
+
+.top-peak p
+{
+    font-family: 'oswald-bold';
+    color: #2A4178;
+    font-size: 30px;
+}
+
+.left-peak
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-peak p
+{
+    font-family: 'oswald-bold';
+    color: #2A4178;
+    font-size: 30px;
+}
+
+.right-peak
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-peak p
+{
+    font-family: 'oswald-bold';
+    color: #2A4178;
+    font-size: 30px;
+}
+
+.bottom-peaks
+{
+    display: flex;
+    justify-content: space-between;
 }
