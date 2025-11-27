@@ -21,7 +21,7 @@
             </div>
         </div>
         <h1 class="top-main-text">Explore the rich colors and diverse scenery that make Bulgaria unique.</h1>
-        <section class="nature">
+    <section class="nature">
             <h1 class="mountains">MOUNTAINS</h1>
                 <div class="horizontal-line"></div>
         <div class="musala-white-box">
@@ -42,7 +42,27 @@
                 <p>Malyovica peak</p>
             </div>
         </div>
-        </section>
+                <h1 class="sea">SEA</h1>
+                <div class="horizontal-line"></div>
+                <div class="sea-white-box">
+                    <img src="images/NATURE/Sozopol.jpg" alt="Sozopol">
+                    <p>"Sozopol"</p>
+                </div>
+                <div class="sea-white-box-sunnybeach">
+                    <img src="images/NATURE/sunnybeach.png" alt="Sunny beach">
+                    <p>"Sunny beach"</p>
+                </div>
+                <div class="sea-white-box-sinemorec">
+                    <img src="images/NATURE/sinemorec.jpg" alt="Sinemorec">
+                    <p>"Sinemorec"</p>
+                </div>
+                    <h1 class="mountains">LAKES</h1>
+                    <div class="horizontal-line"></div>
+                <div class="rila-lakes-white-box">
+                <img src="images/NATURE/sedemte-rilski-ezera.jpg" alt="7 Rila lakes">
+                <p>“The Seven Rila Lakes form one of Bulgaria’s most famous natural landmarks, known for their crystal-clear water and scenic mountain views.”</p>
+        </div>
+    </section>
      </main>
      <?php include 'components/footer.html'?>
 </body>
