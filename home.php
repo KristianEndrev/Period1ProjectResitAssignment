@@ -14,7 +14,7 @@
         </div>
         <nav>
             <ul>
-                 <!-- <?php 
+                 <?php 
                 $navigation = array("CULTURE", "NATURE", "CUISINE", "HISTORY", "COUNTRIES");
                 $navigationLink = array("#", "#", "#", "#", "#");
 
@@ -22,7 +22,7 @@
                 {
                     echo "<li><a href=" . $navigationLink[$i] . ">$navigation[$i]</a></li>";
                 }
-                ?>  -->
+                ?> 
             </ul>
         </nav>
     </header>
