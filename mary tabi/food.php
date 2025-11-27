@@ -157,7 +157,7 @@ unset($lang_options[$current_lang]);
             </p>
             <p>
                 <a href="tel:+237675799739">
-                    <img src="images/good_phone.png" alt="Phone Icon">
+                    <img src="images/images/phone/good_phone.png" alt="Phone Icon">
                     +237675799739
                 </a>
             </p>
