@@ -14,9 +14,28 @@
     <img class="hero-image" src="images/HOME/HomeHero.jpg" alt="Church Alexander Nevski">
     <div class="hero-text-box">
         <div class="left-hero-text">
-            <h2>Добро утро!</h2>
-                <h3>Doh-bro oo-truh!</h3>
-                 <h4>(Good morning!)</h4>
+            <?php
+            $hour = (int)date('H');
+
+            if ($hour >= 5 && $hour < 12)
+            {
+                echo "<h2>Добро утро!</h2>
+                        <h3>Doh-bro oo-truh!</h3>
+                            <h4>(Good morning!)</h4>";
+            }
+            elseif ($hour >= 12 && $hour < 17)
+            {
+                echo "<h2>Добър ден!</h2>
+                        <h3>Doh-bər den!</h3>
+                            <h4>(Good afternoon!)</h4>";
+            }
+            else
+            {
+                echo "<h2>Добър вечер!</h2>
+                        <h3>Doh-bər ve-cher!</h3>
+                            <h4>(Good evening!)</h4>";
+            }
+            ?>
             
         </div>
         <div class="vertical-line"></div>
