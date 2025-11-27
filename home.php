@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="components/header.css">
     <link rel="stylesheet" href="components/footer.css">
-    <title>Visit Bulgaria</title>
+    <title>HOME</title>
 </head>
 <body>
         <?php include 'components/header.php' ?>
