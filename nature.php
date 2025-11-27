@@ -62,8 +62,110 @@
                 <img src="images/NATURE/sedemte-rilski-ezera.jpg" alt="7 Rila lakes">
                 <p>“The Seven Rila Lakes form one of Bulgaria’s most famous natural landmarks, known for their crystal-clear water and scenic mountain views.”</p>
         </div>
-    </section>
-     </main>
-     <?php include 'components/footer.html'?>
+            <?php
+                $place = $_POST['place'] ?? '';
+                $images = [
+                'musala'      => 'images/NATURE/Musala.jpg',
+                'vitosha'     => 'images/NATURE/Vitosha_peak.jpg',
+                'botev'       => 'images/NATURE/Botev_Peak.jpg',
+                'malyovitsa'  => 'images/NATURE/Malyovica_peak.png',
+                'sozopol'     => 'images/NATURE/Sozopol.jpg',
+                'sunny-beach' => 'images/NATURE/sunnybeach.png',
+                'sinemorec'   => 'images/NATURE/sinemorec.jpg',
+                'seven-rila'  => 'images/NATURE/sedemte-rilski-ezera.jpg',
+                ];
+
+                if (!empty($place)) {
+                    // Map value -> query text for Booking.com
+                    $queries = [
+                    'musala'      => 'Musala Bulgaria',
+                    'vitosha'     => 'Vitosha Bulgaria',
+                    'botev'       => 'Botev peak Bulgaria',
+                    'malyovitsa'  => 'Malyovitsa Bulgaria',
+                    'sozopol'     => 'Sozopol',
+                    'sunny-beach' => 'Sunny Beach',
+                    'sinemorec'   => 'Sinemorec',
+                    'seven-rila'  => 'Seven Rila Lakes',
+                    ];
+                    $bookingUrl = '';
+
+                    if (isset($_POST['go']) && !empty($place) && isset($queries[$place])) {
+                        $q = urlencode($queries[$place]);
+                        $bookingUrl = "https://www.booking.com/searchresults.en-gb.html?ss={$q}";
+                    }
+
+                }
+                ?>
+                <div class="destination-box">
+                <form method="post">
+                    <label for="place">Choose a destination</label>
+                    <div class="select-row">
+                    <div class="select-wrapper">
+                        <select name="place" id="place" required>
+                        <option value="" disabled selected>Select a place</option>
+                        <option value="musala">Musala</option>
+                        <option value="vitosha">Vitosha</option>
+                        <option value="botev">Botev</option>
+                        <option value="malyovitsa">Malyovitsa</option>
+                        <option value="sozopol">Sozopol</option>
+                        <option value="sunny-beach">Sunny beach</option>
+                        <option value="sinemorec">Sinemorec</option>
+                        <option value="seven-rila">Seven Rila Lakes</option>
+                        </select>
+                    </div>
+                    <?php if (!empty($bookingUrl)): ?>
+                        <script>
+                            window.open('<?= htmlspecialchars($bookingUrl) ?>', '_blank');
+                        </script>
+                    <?php endif; ?>
+
+
+                    <button type="submit" class="go-btn" name="go">Go</button>
+                    </div>
+                </form>
+                <div class="preview">
+                <?php
+                $hiddenClass = (empty($_POST['place']) || !isset($images[$_POST['place']]))
+                    ? 'is-hidden'
+                    : '';
+                ?>
+                <img id="preview-img"
+                    class="<?= $hiddenClass ?>"
+                    src="<?= !empty($_POST['place']) && isset($images[$_POST['place']]) ? htmlspecialchars($images[$_POST['place']]) : '' ?>"
+                    alt="<?= !empty($_POST['place']) ? htmlspecialchars($_POST['place']) : '' ?>">
+                </div>
+
+                </div>
+                </section>
+                </main>
+                <?php include 'components/footer.html'?>
+                <script>
+                const imageMap = {
+                    'musala':      'images/NATURE/Musala.jpg',
+                    'vitosha':     'images/NATURE/Vitosha_peak.jpg',
+                    'botev':       'images/NATURE/Botev_Peak.jpg',
+                    'malyovitsa':  'images/NATURE/Malyovica_peak.png',
+                    'sozopol':     'images/NATURE/Sozopol.jpg',
+                    'sunny-beach': 'images/NATURE/sunnybeach.png',
+                    'sinemorec':   'images/NATURE/sinemorec.jpg',
+                    'seven-rila':  'images/NATURE/sedemte-rilski-ezera.jpg'
+                };
+
+                const select = document.getElementById('place');
+                const img    = document.getElementById('preview-img');
+
+                select.addEventListener('change', () => {
+                    const val = select.value;
+                    if (imageMap[val]) {
+                    img.src = imageMap[val];
+                    img.alt = val;
+                    img.style.display = 'block';
+                    } else {
+                    img.style.display = 'none';
+                    }
+                });
+                </script>
+
+     
 </body>
 </html>
