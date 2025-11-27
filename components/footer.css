@@ -35,6 +35,27 @@ footer
     padding: 0.3vw;
 }
 
+.social-media{
+
+    display: flex;
+    gap: 18px;
+    margin-top: 14px;
+    align-items: center;
+
+}
+.social-media img{
+    width: 2.5vw;
+    height: auto;
+    padding: 0.3vw;
+}
+.social-media a{
+    transition: all 0.35s;
+}
+.social-media a:hover{
+    transform: scale(1.15);
+    opacity: 2;
+}
+
 .right-footer-text
 {
     display: flex;
@@ -130,4 +151,56 @@ footer
     text-align: right;
     font-family: 'opensans-regular';
     padding: 1vw;
+}
+
+.logo a {
+  color: white;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  color: white;
+}
+
+.logo a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1.5px;
+    width: 0;
+    background-color: white;
+    text-align: right;
+    opacity: 0;
+    transition: width 0.7s ease, opacity 0.5s ease;
+}
+
+.logo a:hover::after{
+    width: 100%;
+    opacity: 1;
+}
+
+.right-footer-text a {
+  color: white;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  color: white;
+}
+
+.right-footer-text a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1.5px;
+    width: 0;
+    background-color: white;
+    text-align: right;
+    opacity: 0;
+    transition: width 0.7s ease, opacity 0.5s ease;
+}
+
+.right-footer-text a:hover::after{
+    width: 100%;
+    opacity: 1;
 }
