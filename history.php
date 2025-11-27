@@ -130,7 +130,128 @@ $hasLess = $show > $perRow;     // we are showing more than the first row
                 <?php endif; ?>
             </div>
         </section>
+        <section class="quiz-section">
+  <button type="button" id="quiz-toggle-btn" class="quiz-toggle-btn">
+    Do you want to take the quiz?
+  </button>
+
+<div id="quiz-container" class="quiz-container">
+  <h2 class="quiz-title">Mini quiz</h2>
+
+  <form id="quiz-form">
+    <div class="quiz-question">
+      <p>1. In which year was the First Bulgarian Empire founded?</p>
+      <label><input type="radio" name="q1" value="681"> 681</label>
+      <label><input type="radio" name="q1" value="865"> 865</label>
+      <label><input type="radio" name="q1" value="893"> 893</label>
+    </div>
+
+    <div class="quiz-question">
+      <p>2. Who introduced Christianity to Bulgaria in 865?</p>
+      <label><input type="radio" name="q2" value="boris"> Boris I</label>
+      <label><input type="radio" name="q2" value="simeon"> Simeon I</label>
+      <label><input type="radio" name="q2" value="asparuh"> Asparuh</label>
+    </div>
+
+    <div class="quiz-question">
+      <p>3. Which Tsar began Bulgaria's Golden Age in 893?</p>
+      <label><input type="radio" name="q3" value="Simeon I"> Tsar Simeon I</label>
+      <label><input type="radio" name="q3" value="Ivan Asen II"> Tsar Ivan Asen II</label>
+      <label><input type="radio" name="q3" value="Boris I"> Prince Boris I</label>
+    </div>
+
+    <div class="quiz-question">
+      <p>4. In what year did Bulgaria fall under Ottoman rule?</p>
+      <label><input type="radio" name="q4" value="1396"> 1396</label>
+      <label><input type="radio" name="q4" value="1185"> 1185</label>
+      <label><input type="radio" name="q4" value="1878"> 1878</label>
+    </div>
+
+    <div class="quiz-question">
+      <p>5. Which major uprising occurred in April 1876?</p>
+      <label><input type="radio" name="q5" value="April Uprising"> The April Uprising</label>
+      <label><input type="radio" name="q5" value="Chiprovtsi Uprising"> Chiprovtsi Uprising</label>
+      <label><input type="radio" name="q5" value="Velchova Uprising"> Velchova Uprising</label>
+    </div>
+
+    <div class="quiz-question">
+      <p>6. What treaty liberated Bulgaria in 1878?</p>
+      <label><input type="radio" name="q6" value="Treaty of San Stefano"> Treaty of San Stefano</label>
+      <label><input type="radio" name="q6" value="Berlin Treaty"> Berlin Treaty</label>
+      <label><input type="radio" name="q6" value="Bucharest Treaty"> Bucharest Treaty</label>
+    </div>
+
+
+    <button type="button" id="check-quiz">Check answers</button>
+    <button type="button" id="reset-quiz">Reset quiz</button>
+  </form>
+
+  <p id="quiz-message"></p>
+</div>
+
+</section>
+
     </main>
     <?php include 'components/footer.html'?>
+<script>
+  // Show the minquiz when the button is clicked:
+  const showQuizBtn   = document.getElementById('quiz-toggle-btn');
+  const quizContainer = document.getElementById('quiz-container');
+
+  showQuizBtn.addEventListener('click', function () {
+    quizContainer.style.display = 'block';
+    showQuizBtn.style.display = 'none';
+  });
+
+  const checkBtn   = document.getElementById('check-quiz');
+  const resetBtn   = document.getElementById('reset-quiz');
+  const quizForm   = document.getElementById('quiz-form');
+  const messageP   = document.getElementById('quiz-message');
+
+  checkBtn.addEventListener('click', function () {
+    let total = 6;
+    let correct = 0;
+
+    const q1 = quizForm.querySelector('input[name="q1"]:checked');
+    if (q1 && q1.value === '681') {
+      correct++;
+    }
+
+    const q2 = quizForm.querySelector('input[name="q2"]:checked');
+    if (q2 && q2.value === 'boris') {
+      correct++;
+    }
+
+        const q3 = quizForm.querySelector('input[name="q3"]:checked');
+    if (q3 && q3.value === 'Simeon I') {
+      correct++;
+    }
+
+        const q4 = quizForm.querySelector('input[name="q4"]:checked');
+    if (q4 && q4.value === '1396') {
+      correct++;
+    }
+
+        const q5 = quizForm.querySelector('input[name="q5"]:checked');
+    if (q5 && q5.value === 'April Uprising') {
+      correct++;
+    }
+
+        const q6 = quizForm.querySelector('input[name="q6"]:checked');
+    if (q6 && q6.value === 'Treaty of San Stefano') {
+      correct++;
+    }
+
+    messageP.textContent = 'You got ' + correct + ' out of ' + total + ' correct.';
+  });
+
+  resetBtn.addEventListener('click', function () {
+    quizForm.reset();
+    messageP.textContent = '';
+  });
+</script>
+
+
+
 </body>
 </html>
