@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('fonts/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+footer
+{
+    background-color: #2A4178;
+}
+
+.footer-text
+{
+    background-color: #2A4178;
+    padding: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-footer-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 6vh;
+}
+
+.social-media img
+{
+    width: 2vw;
+    height: auto;
+    color: white;
+    padding: 0.3vw;
+}
+
+.right-footer-text
+{
+    display: flex;
+    flex-direction: row;
+    line-height: 6vh;
+    gap: 5vw;
+    text-align: start;
+}
+
+.explore-section
+{
+    color: white;
+    line-height: 5vh;
+}
+
+.explore-section h1
+{
+   padding: 0;
+}
+
+.explore-section ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.explore-section a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.explore-section li
+{
+    font-family: 'opensans-regular';
+    padding: 0;
+}
+
+.legal-section
+{
+    color: white;
+    line-height: 5vh;
+}
+
+.legal-section h1
+{
+   padding: 0;
+}
+
+.legal-section ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.legal-section li
+{
+    font-family: 'opensans-regular';
+}
+
+.contact-section
+{
+    color: white;
+    line-height: 5vh;
+}
+
+.contact-section h1
+{
+   padding: 0;
+}
+
+.contact-section ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section li
+{
+    font-family: 'opensans-regular';
+}
+
+.footer-line
+{
+    border: 1px solid white;
+    width: 100%;
+}
+
+.copyright-text
+{
+    margin: 0;
+    color: white;
+    text-align: right;
+    font-family: 'opensans-regular';
+    padding: 1vw;
+}

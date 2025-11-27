@@ -4,29 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="components/header.css">
+    <link rel="stylesheet" href="components/footer.css">
     <title>Visit Bulgaria</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h3>VISIT BULGARIA</h3>
-            <img src="images/HOME/BulgariaFlag.png" alt="Bulgarian Bulgaria Flag">
-        </div>
-        <nav>
-            <ul>
-                 <?php 
-                $navigation = array("CULTURE", "NATURE", "CUISINE", "HISTORY", "COUNTRIES");
-                $navigationLink = array("#", "#", "#", "#", "#");
-
-                for($i = 0;$i < count($navigation); $i++)
-                {
-                    echo "<li><a href=" . $navigationLink[$i] . ">$navigation[$i]</a></li>";
-                }
-                ?> 
-            </ul>
-        </nav>
-    </header>
-
+        <?php include 'components/header.php' ?>
     <main>
     <img class="hero-image" src="images/HOME/HomeHero.jpg" alt="Church Alexander Nevski">
     <div class="hero-text-box">
@@ -69,50 +52,6 @@
 
                 <div class="horizontal-line"></div>
     </main>
-
-    <footer>
-        <div class="footer-text">
-        <div class="left-footer-text">
-            <div class="logo">
-            <h3>VISIT BULGARIA</h3>
-            <img src="images/HOME/BulgariaFlag.png" alt="Bulgarian Bulgaria Flag">
-            </div>
-            <div class="social-media">
-                <img src="images/HOME/instagram.png" alt="instagram">
-                <img src="images/HOME/twitter.png" alt="twitter">
-                <img src="images/HOME/facebook.png" alt="facebook">
-            </div>
-        </div>
-        <div class="right-footer-text">
-            <div class="explore-section">
-                <h1>EXPLORE</h1>
-                <ul>
-                    <li><a href="">CULTURE</a></li>
-                    <li><a href="">NATURE</a></li>
-                    <li><a href="">CUISINE</a></li>
-                    <li><a href="">HISTORY</a></li>
-                    <li><a href="">COUNTRIES</a></li>
-                </ul>
-            </div>
-            <div class="legal-section">
-                <h1>LEGAL</h1>
-                <ul>
-                    <li>PRIVACY POLICY</li>
-                    <li>TERMS OF USE</li>
-                </ul>
-            </div>
-            <div class="contact-section">
-                <h1>CONTACT</h1>
-                <ul>
-                    <li>visitbulgaria@gmail.com</li>
-                    <li>+359123456789</li>
-                </ul>
-            </div>
-        </div>
-        </div>
-        <div class="footer-line">
-        </div>
-        <p class="copyright-text">&copy;2025 visitbulgaria. All rights reserved.</p>
-    </footer>
+        <?php include 'components/footer.html'?>
 </body>
 </html>
