@@ -50,7 +50,8 @@ header {
 .main-nav a {
     text-decoration: none;
     color: #004a99;
-    font-size: 0.95rem;
+    font-size: 1rem;
+    font-weight: bold;
     padding: 0.3rem 0.6rem;
     border-radius: 4px;
 }
@@ -307,7 +308,8 @@ footer {
     margin: 0 auto;
     padding: 0 1rem;
     font-weight: bold;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
+    font-weight: bold;
     color: #003b73;
     text-align: center;
 }
