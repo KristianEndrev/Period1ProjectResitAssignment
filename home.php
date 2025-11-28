@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="components/header.css">
     <link rel="stylesheet" href="components/footer.css">
-    <title>HOME</title>
+    <title>Home</title>
 </head>
 <body>
         <?php include 'components/header.php' ?>
