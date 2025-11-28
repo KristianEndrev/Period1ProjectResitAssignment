@@ -126,7 +126,7 @@ unset($lang_options[$current_lang]);
                 
             </div>
         </div>
-    </main>
+    </main><br><br>
 
       <footer>
     <div class="footer-grid">

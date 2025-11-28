@@ -122,7 +122,7 @@ unset($lang_options[$current_lang]);
                 </form>
             </div>
         </div>
-    </main>
+    </main><br><br>
     
      <footer>
     <div class="footer-grid">
