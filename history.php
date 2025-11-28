@@ -92,9 +92,7 @@ $hasLess = $show > $perRow;     // we are showing more than the first row
     <main>
         <section class="history-section">
             <h1>History timeline</h1>
-            <p class="history-subtitle">
-                A land of heroes, empires, and timeless traditions — this is the history of Bulgaria.
-            </p>
+            <p class="history-subtitle">A land of heroes, empires, and timeless traditions — this is the history of Bulgaria.</p>
 
             <div class="events-grid">
                 <?php for ($i = 0; $i < $show; $i++): ?>
