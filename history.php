@@ -90,18 +90,18 @@ $hasLess = $show > $perRow;     // we are showing more than the first row
 <body>
     <?php include 'components/header.php' ?>
     <main>
-        <section class="history-section">
+        <section  class="history-section">
             <h1>History timeline</h1>
             <p class="history-subtitle">A land of heroes, empires, and timeless traditions — this is the history of Bulgaria.</p>
 
-            <div class="events-grid">
+            <div id="history" class="events-grid">
                 <?php for ($i = 0; $i < $show; $i++): ?>
                     <?php $event = $events[$i]; ?>
                     <div class="event-card">
                         <div class="event-header">
                             <div class="event-line"></div>
                             <div>
-                                <div class="event-date"><?= htmlspecialchars($event['date']) ?></div>
+                                <div id="event" class="event-date"><?= htmlspecialchars($event['date']) ?></div>
                                 <div class="event-title"><?= htmlspecialchars($event['title']) ?></div>
                             </div>
                         </div>
@@ -114,14 +114,14 @@ $hasLess = $show > $perRow;     // we are showing more than the first row
             </div>
             <div class="view-buttons">
                 <?php if ($hasLess): ?>
-                    <form method="get" class="view-less-form">
+                    <form method="get" action="#history" class="view-less-form">
                         <input type="hidden" name="show" value="<?= max($perRow, $show - $perRow) ?>">
                         <button type="submit" class="view-less-btn">View less</button>
                     </form>
                 <?php endif; ?>
 
                 <?php if ($hasMore): ?>
-                    <form method="get" class="view-more-form">
+                    <form method="get" action="#history" class="view-more-form">
                         <input type="hidden" name="show" value="<?= $show + $perRow ?>">
                         <button type="submit" class="view-more-btn">View more</button>
                     </form>

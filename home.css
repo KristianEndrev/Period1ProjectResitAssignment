@@ -159,6 +159,7 @@ video
 {
    width: 90vw;
    height: auto;
+    border-radius: 1vw;
 }
 
 .white-box1
