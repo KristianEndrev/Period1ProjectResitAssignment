@@ -76,7 +76,7 @@ unset($lang_options[$current_lang]);
 
     <div class="tourism-page">
         <div class="tourism-1">
-            <h1>Welcome To Cameroon The Heart Of AFrica, Awaiting To Be Explore</h1>
+            <h1>Welcome To Cameroon The Heart Of Africa, Awaiting To Be Explore</h1>
             <p>
             Cameroon is a place where Africa's beauty and diversity comes together.The nations has montaintains, waterfalls, beaches and wildlife all in one stunning destinatio</p>
             <img src="images/images/maxre.jpg" alt="an image of animals">
