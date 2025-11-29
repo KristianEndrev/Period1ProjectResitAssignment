@@ -40,7 +40,7 @@ switch ($tab) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="culture.css">
+    <link rel="stylesheet" href="css/culture.css">
     <link rel="stylesheet" href="components/header.css">
     <link rel="stylesheet" href="components/footer.css">
     <title>Culture</title>

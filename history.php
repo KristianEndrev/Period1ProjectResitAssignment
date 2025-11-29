@@ -83,7 +83,7 @@ $hasLess = $show > $perRow;     // we are showing more than the first row
 <head>
     <meta charset="UTF-8">
     <title>History</title>
-    <link rel="stylesheet" href="history.css">
+    <link rel="stylesheet" href="css/history.css">
     <link rel="stylesheet" href="components/header.css">
     <link rel="stylesheet" href="components/footer.css">
 </head>
