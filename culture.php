@@ -54,7 +54,7 @@ switch ($tab) {
             <p>A harmony between ancient traditions and a vibrant modern identity.</p>
         </div>
     </div>
-    <main id="culture">
+    <main id="culture" class="reveal">
     <div class="tabs">
         <div class="tab-buttons">
             <a href="?tab=music#culture" class="tab-button <?= $tab === 'music' ? 'active' : '' ?>">Music</a>
