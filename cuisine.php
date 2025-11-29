@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
     <main>
 
-        <div class="left-box">
+        <div class="left-box reveal-left">
             <div class="left-box-text">
                 <h1>Banitsa - A symbol of the Bulgarian cuisine</h1>
                 <p>Banitsa is a traditional Bulgarian pastry made from layers of flaky filo dough,
@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <img src="images/CUISINE/banitsa.png" alt="Banitsa">
         </div>
 
-        <div class="align-right">
+        <div class="align-right reveal-right">
             <div class="right-box">
                 <img src="images/CUISINE/mousaka.png" alt="Mousaka">
                 <div class="right-box-text">
@@ -92,7 +92,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
         </div>
 
-        <div class="left-box">
+        <div class="left-box reveal-left">
             <div class="left-box-text">
                 <h1>Tarator - A refreshing Bulgarian summer classic</h1>
                 <p>Tarator is a cold Bulgarian soup made with yogurt, cucumbers, garlic, and fresh herbs. Light,
@@ -101,7 +101,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <img src="images/CUISINE/tarator.png" alt="Tarator">
         </div>
 
-        <div class="align-right">
+        <div class="align-right reveal-right">
             <div class="right-box">
                 <img src="images/CUISINE/shopska-salad.png" alt="Shopska salad">
                 <div class="right-box-text">
@@ -113,16 +113,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
         </div>
 
-        <div class="left-box fadeUp">
+        <div class="left-box reveal-left">
             <div class="left-box-text">
                 <h1>Boza - A traditional Bulgarian fermented drink</h1>
                 <p>Boza is a thick, lightly fermented drink made from grains such as wheat or millet. Sweet, slightly tangy, and creamy in texture,
-                     it's a nostalgic favorite often enjoyed with pastries like banitsa.</p>
+                 it's a nostalgic favorite often enjoyed with pastries like banitsa.</p>
             </div>
             <img src="images/CUISINE/boza.png" alt="Boza">
         </div>
 
-        <div class="align-right">
+        <div class="align-right reveal-right">
             <div class="right-box">
                 <img src="images/CUISINE/zelevi-sarmi.png" alt="Zelevi sarmi">
                 <div class="right-box-text">
@@ -133,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
         </div>
 
-        <div id="guvech" class="left-box">
+        <div id="guvech" class="left-box reveal-left">
             <div id="guvech-text" class="left-box-text">
                 <h1>Guvech - A slow-cooked Balkan vegetable and meat stew</h1>
                 <p>Guvech is a traditional Balkan dish made with tender meat, tomatoes, peppers, potatoes, and herbs, slow-cooked in a clay pot. Rich, hearty, 
@@ -142,7 +142,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <img src="images/CUISINE/guvech.png" alt="Guvech">
         </div>
 
-        <div class="align-right">
+        <div class="align-right reveal-right">
             <div class="right-box">
                 <img src="images/CUISINE/ayran.png" alt="Ayran">
                 <div class="right-box-text">
@@ -153,7 +153,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
         </div>
 
-        <div id="shkembe" class="left-box">
+        <div id="shkembe" class="left-box reveal-left">
             <div class="left-box-text">
                 <h1>Shkembe Chorba - A traditional Bulgarian tripe soup</h1>
                 <p>Shkembe chorba is a rich, creamy soup made from beef tripe, garlic, vinegar, and spices. Bold in flavor and deeply comforting,
@@ -162,7 +162,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <img src="images/CUISINE/shkembe-chorba.png" alt="Shkembe chorba">
         </div>
 
-        <div class="align-right">
+        <div class="align-right reveal-right">
             <div class="right-box">
                 <img src="images/CUISINE/rakija.png" alt="Rakija">
                 <div class="right-box-text">
@@ -172,7 +172,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
             </div>
         </div>
-        <div id="stayatform" class="share-food">
+        <div id="stayatform" class="share-food reveal">
             <h1>Stay Updated with Bulgarian Cuisine</h1>
             <p>Join Our Food Newsletter</p>
         </div>
@@ -226,7 +226,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <button type="submit" class="cuisine-submit-btn">Send</button>
   </form>
 </section>
-
+    <div class="horizontal-line"></div>
     </main>
     <?php include 'components/footer.html'?>
 </body>

@@ -178,7 +178,6 @@ body
     height: 90vh;
     border-radius: 2vw;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-
 }
 
 .musala-white-box p
@@ -453,3 +452,75 @@ body
   display: none;
 }
 
+.reveal
+{
+    animation: reveal both;
+    animation-timeline: view(80% 15%);
+}
+
+@keyframes reveal
+{
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.3);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.reveal-mountain
+{
+    animation: reveal-mountain both;
+    animation-timeline: view(60% -20%);
+}
+
+@keyframes reveal-mountain
+{
+    from {
+        opacity: 0;
+        transform: translateY(5px) scale(0.3);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.reveal-left
+{
+    animation: reveal-left both;
+    animation-timeline: view(90% -10%);
+}
+
+@keyframes reveal-left
+{
+    from {
+        opacity: 0;
+        transform: translateX(1000px) scale(0.3) translateY(-2500px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1) translateY(0);
+    }
+}
+
+
+.reveal-right
+{
+    animation: reveal-right both;
+    animation-timeline: view(100% -10%);
+}
+
+@keyframes reveal-right
+{
+    from {
+        opacity: 0;
+        transform: translateX(-1000px) scale(0.3) translateY(-2500px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1) translateY(0);
+    }
+}

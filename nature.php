@@ -24,41 +24,41 @@
     <section class="nature">
             <h1 class="mountains">MOUNTAINS</h1>
                 <div class="horizontal-line"></div>
-        <div class="musala-white-box">
+        <div class="musala-white-box reveal-mountain">
                 <img src="images/NATURE/Musala.jpg" alt="">
                 <p>“At 2,925 meters, Musala peak rises above the Balkans, offering unforgettable views for every hiker.”</p>
         </div>
-            <div class="top-peak">
+            <div class="top-peak reveal">
                 <img src="images/NATURE/Circle-VitoshaPeak.png" alt="Vitosha peak">
                 <p>Vitosha peak</p>
             </div>
         <div class="bottom-peaks">
-            <div class="left-peak">
+            <div class="left-peak reveal-left">
                 <img src="images/NATURE/Circle-BotevPeak.png" alt="Vitosha peak">
                 <p>Botev peak</p>
             </div>
-            <div class="right-peak">
+            <div class="right-peak reveal-right">
                 <img src="images/NATURE/Circle-MalyovicaPeak.png" alt="Vitosha peak">
                 <p>Malyovica peak</p>
             </div>
         </div>
                 <h1 class="sea">SEA</h1>
                 <div class="horizontal-line"></div>
-                <div class="sea-white-box">
+                <div class="sea-white-box reveal-left">
                     <img src="images/NATURE/Sozopol.jpg" alt="Sozopol">
                     <p>"Sozopol"</p>
                 </div>
-                <div class="sea-white-box-sunnybeach">
+                <div class="sea-white-box-sunnybeach reveal-right">
                     <img src="images/NATURE/sunnybeach.png" alt="Sunny beach">
                     <p>"Sunny beach"</p>
                 </div>
-                <div class="sea-white-box-sinemorec">
+                <div class="sea-white-box-sinemorec reveal-left">
                     <img src="images/NATURE/sinemorec.jpg" alt="Sinemorec">
                     <p>"Sinemorec"</p>
                 </div>
                     <h1 class="mountains">LAKES</h1>
                     <div class="horizontal-line"></div>
-                <div class="rila-lakes-white-box">
+                <div class="rila-lakes-white-box reveal-mountain">
                 <img src="images/NATURE/sedemte-rilski-ezera.jpg" alt="7 Rila lakes">
                 <p>“The Seven Rila Lakes form one of Bulgaria's most famous natural landmarks, known for their crystal-clear water and scenic mountain views.”</p>
         </div>
@@ -96,7 +96,7 @@
 
                 }
                 ?>
-                <div class="destination-box">
+                <div class="destination-box reveal">
                 <form method="post">
                     <label for="place">Choose a destination</label>
                     <div class="select-row">

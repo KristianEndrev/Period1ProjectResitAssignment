@@ -44,10 +44,14 @@
              and every corner</p> <p>tells a story.</p>
         </div>
     </div>
+    <div class="admire-box">
+        <h1 class="admire-text">Admire the beauty of Bulgaria!</h1>
+        <div class="admire-line"></div>
+    </div>
         <div class="video">
         <video autoplay muted loop src="images/HOME/Bulgaria-8k.mp4"></video>
         </div>
-            <div class="white-box1">
+            <div class="white-box1 reveal-left">
                 <div class="dark-blue-box1">
                     <p>A land of history, nature, and tradition — Bulgaria has a
                          unique story in every place you visit.</p> 
@@ -55,8 +59,8 @@
             </div>
                 <div class="map">  
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002785.0182244466!2d22.90362460141618!3d42.69509699195887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a8fec1c85bf089%3A0xa01269bf4c10!2z0JHRitC70LPQsNGA0LjRjw!5e0!3m2!1sbg!2snl!4v1764108962600!5m2!1sbg!2snl"
-                    class="bulgaria-map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <div class="white-box2">
+                    class="bulgaria-map reveal-left" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="white-box2 reveal-right">
                         <div class="dark-blue-box2">
                         <ul>
                             <li>111,000 km²</li>           
