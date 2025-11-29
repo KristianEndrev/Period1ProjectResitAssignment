@@ -86,7 +86,7 @@ unset($lang_options[$current_lang]);
         </div>
          
         <div class="history-2">
-            <h2>Caneroon After Her Indepences</h2>
+            <h2>Cameroon After Her Indepences</h2>
             <p>After gaining independence, Cameroon faced the challenge of uniting its diverse regions and ethnic groups. The country adopted a federal system to accommodate the English-speaking and French-speaking regions, but tensions and political changes over the years led to the creation of a unitary state in 1972. Since then, Cameroon has worked to develop its economy, infrastructure, and education while preserving its rich cultural heritage</p>
             <img src="images/images/diversite-culturelle-du-Cameroun-1024x585.webp" alt="picture">
         </div>
