@@ -1,4 +1,4 @@
-/* Reset basic styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +6,10 @@
     font-family: Arial, sans-serif;
 }
 
-/* Header and navigation container */
+
 header {
     width: 100%;
-    background-color: #0b3d91; /* Deep blue */
+    background-color: #0b3d91; 
     padding: 10px 20px;
 }
 
@@ -47,7 +47,7 @@ nav ul li a:hover {
     color: #0b3d91;
 }
 
-/* Language dropdown container */
+
 .lang-container {
     position: relative;
     display: inline-block;
@@ -72,12 +72,12 @@ nav ul li a:hover {
     height: 13px;
 }
 
-/* Arrow for dropdown */
+
 .arrow {
     font-size: 12px;
 }
 
-/* Dropdown menu */
+
 .lang-dropdown {
     position: absolute;
     top: 120%;
@@ -92,7 +92,6 @@ nav ul li a:hover {
     z-index: 100;
 }
 
-/* Dropdown items */
 .lang-dropdown li a {
     display: flex;
     align-items: center;
@@ -112,7 +111,7 @@ nav ul li a:hover {
     display: block;
 }
 
-/* Responsive: stack menu on small screens */
+
 @media screen and (max-width: 768px) {
     .navigation {
         flex-direction: column;
@@ -283,10 +282,10 @@ nav ul li a:hover {
 /* Each food section stacked content */
 .food-1,
 .food-2,
-.tourism-3,
+.food-3,
 .food-4 {
     display: grid;
-    grid-template-rows: auto 1fr auto; /* headings, paragraph, image */
+    grid-template-rows: auto 1fr auto; 
     gap: 15px;
 }
 
@@ -324,10 +323,10 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
-/* Responsive: stack columns on smaller screens */
+
 @media screen and (max-width: 992px) {
     .food-page {
-        grid-template-columns: 1fr; /* single column */
+        grid-template-columns: 1fr; 
         gap: 30px;
     }
 
@@ -349,15 +348,10 @@ nav ul li a:hover {
 
 
 
-
-
-
-
-/* /*start of my footer style */
 /*start of footer style*/
 
 footer {
-    background-color: #0b3d91; /* deep blue */
+    background-color: #0b3d91;
     color: #fff;
     padding: 50px 20px;
     font-family: Arial, sans-serif;
@@ -366,14 +360,13 @@ footer {
 /* Grid container */
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
     align-items: start;
 }
 
-/* Address Column */
 .footer-address {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -388,7 +381,6 @@ footer {
 
 }
 
-/* Visiting Hours Column */
 .visiting-hours ul {
     list-style: none;
     padding: 0;
@@ -399,7 +391,6 @@ footer {
     line-height: 1.5;
 }
 
-/* Contact Info Column */
 .footer-contact p {
     display: flex;
     align-items: center;

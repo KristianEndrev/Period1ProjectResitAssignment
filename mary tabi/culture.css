@@ -1,4 +1,4 @@
-/* Reset basic styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,21 +6,21 @@
     font-family: Arial, sans-serif;
 }
 
-/* Header and navigation container */
+/* start of navigation */
 header {
     width: 100%;
-    background-color: #0b3d91; /* Deep blue */
+    background-color: #0b3d91; 
     padding: 10px 20px;
 }
 
-/* Navigation wrapper */
+
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Logo */
+
 .nav-logo img {
     height: 50px;
     cursor: pointer;
@@ -55,28 +55,27 @@ nav ul li a:hover {
 /* the start of the styling of the main area of my culture page*/
 .culture-page {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 equal columns */
-    gap: 2rem; /* space between grid items */
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem; 
     padding: 2rem;
 }
 
-/* Make all h1 and h2 headings red */
 .culture-page h1,
 .culture-page h2 {
     color: red;
 }
 
-/* Ensure all images inside .culture-page are uniform */
+
 .culture-page img {
-    width: 100%;       /* full width of container */
-    max-width: 100%;   /* prevent overflow */
-    height: auto;      /* maintain aspect ratio */
+    width: 100%;       
+    max-width: 100%;   
+    height: auto;      
     border-radius: 8px;
     margin-top: 1rem;
-    display: block;    /* remove inline spacing issues */
+    display: block;    
 }
 
-/* Optional: spacing for paragraphs */
+
 .culture-page p {
     margin-top: 0.5rem;
     line-height: 1.6;
@@ -170,8 +169,6 @@ nav ul li a:hover {
 
 
 
-
-
 .language-dropdown {
     position: relative;
     display: inline-block;
@@ -237,7 +234,7 @@ nav ul li a:hover {
     display: block;
 }
 
-/* Optional: Remove default button focus outline but keep accessibility */
+
 .lang-select:focus {
     outline: none;
 }
@@ -304,11 +301,6 @@ nav ul li a:hover {
   }
 }
 
-
-
-
-
-/* /*start of my footer style */
 /*start of footer style*/
 
 footer {
@@ -321,7 +313,7 @@ footer {
 /* Grid container */
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
