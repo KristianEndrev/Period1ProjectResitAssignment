@@ -1,4 +1,4 @@
-/* Reset basic styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +6,10 @@
     font-family: Arial, sans-serif;
 }
 
-/* Header and navigation container */
+/* start of navigation*/
 header {
     width: 100%;
-    background-color: #0b3d91; /* Deep blue */
+    background-color: #0b3d91; 
     padding: 10px 20px;
 }
 
@@ -199,8 +199,6 @@ nav ul li a:hover {
 .language-dropdown:focus-within .lang-menu {
     display: block;
 }
-
-/* Optional: Remove default button focus outline but keep accessibility */
 .lang-select:focus {
     outline: none;
 }
@@ -272,8 +270,8 @@ nav ul li a:hover {
 /*my history main page style*/
 .history-page {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* two equal columns */
-    gap: 40px; /* space between columns and rows */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px; 
     max-width: 1200px;
     margin: 50px auto;
     padding: 0 20px;
@@ -281,7 +279,7 @@ nav ul li a:hover {
     color: #333;
 }
 
-/* Each history block: paragraph on top, image below */
+
 .history-page > div {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -294,16 +292,15 @@ nav ul li a:hover {
     line-height: 1.6;
 }
 
-/* Images: same size, occupy full column */
+
 .history-page img {
     width: 100%;
-    height: 300px; /* uniform height */
-    object-fit: cover; /* crop and fill container */
+    height: 300px; 
+    object-fit: cover; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Optional: alternate background for blocks */
 .history-page > div:nth-child(odd) {
     background-color: #f9f9f9;
     padding: 15px;
@@ -313,12 +310,12 @@ nav ul li a:hover {
 /* Responsive: stack columns and adjust image height */
 @media screen and (max-width: 768px) {
     .history-page {
-        grid-template-columns: 1fr; /* single column */
+        grid-template-columns: 1fr; 
         gap: 30px;
     }
 
     .history-page img {
-        height: 250px; /* slightly smaller for mobile */
+        height: 250px;
     }
 }
 
@@ -337,15 +334,10 @@ nav ul li a:hover {
 
 
 
-
-
-
-
-/* /*start of my footer style */
 /*start of footer style*/
 
 footer {
-    background-color: #0b3d91; /* deep blue */
+    background-color: #0b3d91; 
     color: #fff;
     padding: 50px 20px;
     font-family: Arial, sans-serif;
@@ -354,7 +346,7 @@ footer {
 /* Grid container */
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
@@ -373,7 +365,7 @@ footer {
     font-size: 1.2rem;
     margin-bottom: 10px;
     text-transform: uppercase;
-    color: #ffd700; /* gold accent for heading */
+    
 }
 
 /* Visiting Hours Column */
@@ -416,7 +408,7 @@ footer {
 /* Responsive for tablets and mobile */
 @media screen and (max-width: 768px) {
     .footer-grid {
-        grid-template-columns: 1fr; /* stack columns */
+        grid-template-columns: 1fr; 
         text-align: center;
         gap: 20px;
     }
