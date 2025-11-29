@@ -35,7 +35,12 @@
                 </div>
             </a>
         </div>
-
+        <footer>
+            <h2>This is the resit project for period 1</h2>
+            <p>Sierra Leone - made by Umaru Jah</p>
+            <p>Bulgaria - made by Kristian Endrev</p>
+            <p>Cameroon - made by Mary Tabi</p> 
+        </footer>
     </main>
 </body>
 </html>
