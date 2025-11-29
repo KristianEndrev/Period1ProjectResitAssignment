@@ -77,7 +77,7 @@ unset($lang_options[$current_lang]);
 
     <div class="culture-page">
         <div class="culture-1">
-            <h1>Welcome To The Cultural Divesity Of Cameroon</h1>
+            <h1>Welcome To The Cultural Diversity Of Cameroon</h1>
             <p>Cameroon is home to more than 250 ethnic groups and languages, ranging from the Fulani in the North to the Bamileke and Bamoun in the West, the grassfild in the north west, the diverse forest communities in the Center and South, the coastal Sawa peoples, and the vibrant cultures of the South West region. Each group contributes its own traditions, languages, and customs, making the country one of the most culturally rich and diverse in Africa.</p>
             <img src="images/images/culture1.webp" alt="an image of a cultural display">
            
