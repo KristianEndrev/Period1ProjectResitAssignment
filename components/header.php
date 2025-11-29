@@ -7,7 +7,7 @@
         <ul>
             <?php 
             $navigation = array("CULTURE", "NATURE", "CUISINE", "HISTORY", "COUNTRIES");
-            $navigationLink = array("culture.php", "nature.php", "#", "history.php", "#");
+            $navigationLink = array("culture.php", "nature.php", "cuisine.php", "history.php", "#");
 
             for ($i = 0; $i < count($navigation); $i++) {
                 echo "<li><a href=\"" . $navigationLink[$i] . "\">" . $navigation[$i] . "</a></li>";

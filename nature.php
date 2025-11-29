@@ -13,7 +13,7 @@
      <main>
         <div class="hero">
             <div class="hero-text">
-                <h1>Discover Bulgaria’s wild beauty</h1>
+                <h1>Discover Bulgaria's wild beauty</h1>
                 <p>mountains, lakes, and coastlines waiting to be explored.</p>
             </div>
             <div class="hero-image">
@@ -60,7 +60,7 @@
                     <div class="horizontal-line"></div>
                 <div class="rila-lakes-white-box">
                 <img src="images/NATURE/sedemte-rilski-ezera.jpg" alt="7 Rila lakes">
-                <p>“The Seven Rila Lakes form one of Bulgaria’s most famous natural landmarks, known for their crystal-clear water and scenic mountain views.”</p>
+                <p>“The Seven Rila Lakes form one of Bulgaria's most famous natural landmarks, known for their crystal-clear water and scenic mountain views.”</p>
         </div>
             <?php
                 $place = $_POST['place'] ?? '';

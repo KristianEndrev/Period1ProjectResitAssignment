@@ -14,7 +14,7 @@ switch ($tab) {
 
     case 'festivals':
         $title = 'Rose festival';
-        $text  = 'The Rose Festival celebrates Bulgaria’s famous oil-bearing roses, grown in the Rose Valley. Every year in early June, towns like Kazanlak come alive with parades, folk music, and rose-picking rituals that honor this centuries-old tradition.';
+        $text  = 'The Rose Festival celebrates Bulgaria`s famous oil-bearing roses, grown in the Rose Valley. Every year in early June, towns like Kazanlak come alive with parades, folk music, and rose-picking rituals that honor this centuries-old tradition.';
         $img   = 'images/CULTURE/rose-festival.jpeg';
         break;
 
@@ -29,7 +29,7 @@ switch ($tab) {
         // fallback: music tab
         $tab   = 'music';
         $title = 'Gaida';
-        $text  = 'The gaida is one of Bulgaria’s most iconic traditional instruments, known for its warm, haunting sound. It is commonly played at celebrations, folk dances, and cultural festivals across the country.';
+        $text  = 'The gaida is one of Bulgaria`s most iconic traditional instruments, known for its warm, haunting sound. It is commonly played at celebrations, folk dances, and cultural festivals across the country.';
         $img   = 'images/CULTURE/gaida.jpg';
         break;
 }
