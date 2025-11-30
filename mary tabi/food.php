@@ -31,7 +31,11 @@ unset($lang_options[$current_lang]);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Document</title>
+=======
+    <title>Welcome To Cameroon</title>
+>>>>>>> Cameroon
     <link rel="stylesheet" href="food.css">
     
 </head>
@@ -122,7 +126,11 @@ unset($lang_options[$current_lang]);
                 </form>
             </div>
         </div>
+<<<<<<< HEAD
     </main>
+=======
+    </main><br><br>
+>>>>>>> Cameroon
     
      <footer>
     <div class="footer-grid">
@@ -157,7 +165,11 @@ unset($lang_options[$current_lang]);
             </p>
             <p>
                 <a href="tel:+237675799739">
+<<<<<<< HEAD
                     <img src="images/good_phone.png" alt="Phone Icon">
+=======
+                    <img src="images/images/phone/good_phone.png" alt="Phone Icon">
+>>>>>>> Cameroon
                     +237675799739
                 </a>
             </p>

@@ -31,7 +31,11 @@ unset($lang_options[$current_lang]);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Document</title>
+=======
+    <title>Welcome To Cameroon</title>
+>>>>>>> Cameroon
     <link rel="stylesheet" href="tourism.css">
 </head>
 <body>
@@ -76,9 +80,15 @@ unset($lang_options[$current_lang]);
 
     <div class="tourism-page">
         <div class="tourism-1">
+<<<<<<< HEAD
             <h1>Welcome To Cameroon The Heart Of AFrica, Awaiting To Be Explore</h1>
             <p>
             Cameroon is a place where Africa's beauty and diversity comes together.The nations has montaintains, waterfalls, beaches and wildlife all in one stunning destinatio</p>
+=======
+            <h1>Welcome To Cameroon The Heart Of Africa, Awaiting To Be Explore</h1>
+            <p>
+            Cameroon is a place where Africa's beauty and diversity comes together.The nations has montaintains, waterfalls, beaches and wildlife all in one stunning destination</p>
+>>>>>>> Cameroon
             <img src="images/images/maxre.jpg" alt="an image of animals">
         </div>
          
@@ -86,13 +96,21 @@ unset($lang_options[$current_lang]);
 
 
             <h2>Limbe Zoo</h2>
+<<<<<<< HEAD
                     <p>imbe Zoo, located in the coastal town of Limbe in Cameroon, is a sanctuary dedicated to rescuing and protecting wildlife, especially primates like gorillas, chimpanzees, and drills, and now serve as an important educational center. Visitors can learn about Cameroon’s rich biodiversity while observing animals in a peaceful, well-maintained environment surrounded by lush tropical greenery.</p>
+=======
+                    <p>Limbe Zoo, located in the coastal town of Limbe in Cameroon, is a sanctuary dedicated to rescuing and protecting wildlife, especially primates like gorillas, chimpanzees, and drills, and now serve as an important educational center. Visitors can learn about Cameroon’s rich biodiversity while observing animals in a peaceful, well-maintained environment surrounded by lush tropical greenery.</p>
+>>>>>>> Cameroon
                     <img src="images/images/limbe zoo.webp" alt="an image with animals">  
         </div>
 
         <div class="tourism-3">
             <h2>Waza Park</h2>
+<<<<<<< HEAD
                         <p>Waza National Park, located in northern Cameroon near the border with Chad, is one of the country’s most important wildlife reserves. The park spans over 1,700 square kilometers and is home to a rich diversity of animals, including elephants, lions, giraffes, antelopes, and numerous bird species. Its vast savannahs, wetlands, and floodplains provide ideal habitats for both large mammals and migratory birds, making Waza Park a prime destination for wildlife enthusiasts and eco-tourists seeking to experience the natural beauty of Cameroon</p>
+=======
+                        <p>Waza National Park, located in northern Cameroon near the border with Chad, is one of the country's most important wildlife reserves. The park spans over 1,700 square kilometers and is home to a rich diversity of animals, including elephants, lions, giraffes, antelopes, and numerous bird species. Its vast savannahs, wetlands, and floodplains provide ideal habitats for both large mammals and migratory birds, making Waza Park a prime destination for wildlife enthusiasts and eco-tourists seeking to experience the natural beauty of Cameroon</p>
+>>>>>>> Cameroon
                         <img src="images/images/safari park.jpg" alt="an image of a park with animals">
            
         </div>
@@ -100,7 +118,11 @@ unset($lang_options[$current_lang]);
 
         <div class="tourism-4">
             <h2>Lobe Water-fall</h2>
+<<<<<<< HEAD
             <p>he Lobe Waterfall, located near the coastal town of Kribi in Cameroon, is a stunning natural wonder where the Atlantic Ocean meets lush tropical rainforest. Unique for its dramatic cascade directly into the sea, the falls offer a breathtaking combination of river, forest, and ocean scenery. Surrounded by rocky cliffs and sandy beaches, Lobe Waterfall is a popular destination for tourists seeking both adventure and relaxation, providing opportunities for swimming, photography, and enjoying the rich biodiversity of the coastal region.</p>
+=======
+            <p>The Lobe Waterfall, located near the coastal town of Kribi in Cameroon, is a stunning natural wonder where the Atlantic Ocean meets lush tropical rainforest. Unique for its dramatic cascade directly into the sea, the falls offer a breathtaking combination of river, forest, and ocean scenery. Surrounded by rocky cliffs and sandy beaches, Lobe Waterfall is a popular destination for tourists seeking both adventure and relaxation, providing opportunities for swimming, photography, and enjoying the rich biodiversity of the coastal region.</p>
+>>>>>>> Cameroon
             <img src="images/images/lobe fall.jpg" alt="an image of a waterfall">
            
         </div>
@@ -126,7 +148,11 @@ unset($lang_options[$current_lang]);
                 
             </div>
         </div>
+<<<<<<< HEAD
     </main>
+=======
+    </main><br><br>
+>>>>>>> Cameroon
 
       <footer>
     <div class="footer-grid">
@@ -161,7 +187,11 @@ unset($lang_options[$current_lang]);
             </p>
             <p>
                 <a href="tel:+237675799739">
+<<<<<<< HEAD
                     <img src="images/images/good_phone.png" alt="Phone Icon">
+=======
+                    <img src="images/images/phone/good_phone.png" alt="Phone Icon">
+>>>>>>> Cameroon
                     +237675799739
                 </a>
             </p>

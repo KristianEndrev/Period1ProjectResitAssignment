@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* Reset basic styles */
+=======
+
+>>>>>>> Cameroon
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +10,17 @@
     font-family: Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 /* Header and navigation container */
 header {
     width: 100%;
     background-color: #0b3d91; /* Deep blue */
+=======
+/* start of navigation */
+header {
+    width: 100%;
+    background-color: #0b3d91; 
+>>>>>>> Cameroon
     padding: 10px 20px;
 }
 
@@ -59,7 +70,10 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     color:white;
+=======
+>>>>>>> Cameroon
     font-size: 2em;
 
 }
@@ -219,7 +233,11 @@ h1{
     display: block;
 }
 
+<<<<<<< HEAD
 /* Optional: Remove default button focus outline but keep accessibility */
+=======
+
+>>>>>>> Cameroon
 .lang-select:focus {
     outline: none;
 }
@@ -287,6 +305,7 @@ h1{
 }
 
 
+<<<<<<< HEAD
 
 
 
@@ -295,6 +314,12 @@ h1{
 
 footer {
     background-color: #0b3d91; /* deep blue */
+=======
+/*start of footer style*/
+
+footer {
+    background-color: #0b3d91; 
+>>>>>>> Cameroon
     color: #fff;
     padding: 50px 20px;
     font-family: Arial, sans-serif;
@@ -303,7 +328,11 @@ footer {
 /* Grid container */
 .footer-grid {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+=======
+    grid-template-columns: repeat(3, 1fr); 
+>>>>>>> Cameroon
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
@@ -365,7 +394,11 @@ footer {
 /* Responsive for tablets and mobile */
 @media screen and (max-width: 768px) {
     .footer-grid {
+<<<<<<< HEAD
         grid-template-columns: 1fr; /* stack columns */
+=======
+        grid-template-columns: 1fr; 
+>>>>>>> Cameroon
         text-align: center;
         gap: 20px;
     }

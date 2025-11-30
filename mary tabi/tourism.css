@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* Reset basic styles */
+=======
+
+>>>>>>> Cameroon
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +13,12 @@
 /* Header and navigation container */
 header {
     width: 100%;
+<<<<<<< HEAD
     background-color: #0b3d91; /* Deep blue */
     padding: 10px 20px;
+=======
+    background-color: #0b3d91; 
+>>>>>>> Cameroon
 }
 
 /* Navigation wrapper */
@@ -135,9 +143,12 @@ nav ul li a:hover {
 }
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> Cameroon
 .language-dropdown {
     position: relative;
     display: inline-block;
@@ -203,14 +214,20 @@ nav ul li a:hover {
     display: block;
 }
 
+<<<<<<< HEAD
 /* Optional: Remove default button focus outline but keep accessibility */
+=======
+>>>>>>> Cameroon
 .lang-select:focus {
     outline: none;
 }
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> Cameroon
 .navactions {
     display: flex;
     gap: 12px;
@@ -276,7 +293,11 @@ nav ul li a:hover {
     display: grid;
     grid-template-rows: auto auto;
     gap: 40px;
+<<<<<<< HEAD
     max-width: 1400px; /* same width as nav/footer */
+=======
+    max-width: 1400px; 
+>>>>>>> Cameroon
     margin: 50px auto;
     padding: 0 20px;
     font-family: Arial, sans-serif;
@@ -295,21 +316,35 @@ nav ul li a:hover {
 /*the start of main area of my tourism page*/
 .tourism-page {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr 1fr; /* two equal columns */
     gap: 40px;
     max-width: 1400px; /* same width as nav/footer */
+=======
+    grid-template-columns: 1fr 1fr; 
+    gap: 40px;
+    max-width: 1400px; 
+>>>>>>> Cameroon
     margin: 50px auto;
     padding: 0 20px;
     font-family: Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 /* Individual sections: stacked content inside each column */
+=======
+
+>>>>>>> Cameroon
 .tourism-1,
 .tourism-2,
 .tourism-3,
 .tourism-4 {
     display: grid;
+<<<<<<< HEAD
     grid-template-rows: auto 1fr auto; /* heading, paragraph, image */
+=======
+    grid-template-rows: auto 1fr auto;
+>>>>>>> Cameroon
     gap: 15px;
 }
 
@@ -333,16 +368,27 @@ nav ul li a:hover {
 .tourism-4 p {
     font-size: 16px;
     line-height: 1.6;
+<<<<<<< HEAD
     color: black; /* paragraph text in black */
 }
 
 /* Images full width and fixed height */
+=======
+    color: black; 
+}
+
+
+>>>>>>> Cameroon
 .tourism-1 img,
 .tourism-2 img,
 .tourism-3 img,
 .tourism-4 img {
     width: 100%;
+<<<<<<< HEAD
     height: 400px; /* same height as nav/footer */
+=======
+    height: 400px; 
+>>>>>>> Cameroon
     object-fit: cover;
     border-radius: 8px;
 }
@@ -350,7 +396,11 @@ nav ul li a:hover {
 /* Responsive: stack columns on small screens */
 @media screen and (max-width: 992px) {
     .tourism-page {
+<<<<<<< HEAD
         grid-template-columns: 1fr; /* single column */
+=======
+        grid-template-columns: 1fr;
+>>>>>>> Cameroon
         gap: 30px;
     }
 
@@ -370,11 +420,18 @@ nav ul li a:hover {
 }
 
 
+<<<<<<< HEAD
 /* /*start of my footer style */
 /*start of footer style*/
 
 footer {
     background-color: #0b3d91; /* deep blue */
+=======
+/*start of footer style*/
+
+footer {
+    background-color: #0b3d91;
+>>>>>>> Cameroon
     color: #fff;
     padding: 50px 20px;
     font-family: Arial, sans-serif;
@@ -383,7 +440,11 @@ footer {
 /* Grid container */
 .footer-grid {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+=======
+    grid-template-columns: repeat(3, 1fr);
+>>>>>>> Cameroon
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
@@ -402,7 +463,11 @@ footer {
     font-size: 1.2rem;
     margin-bottom: 10px;
     text-transform: uppercase;
+<<<<<<< HEAD
     color: #ffd700; /* gold accent for heading */
+=======
+    
+>>>>>>> Cameroon
 }
 
 /* Visiting Hours Column */
@@ -445,7 +510,11 @@ footer {
 /* Responsive for tablets and mobile */
 @media screen and (max-width: 768px) {
     .footer-grid {
+<<<<<<< HEAD
         grid-template-columns: 1fr; /* stack columns */
+=======
+        grid-template-columns: 1fr; 
+>>>>>>> Cameroon
         text-align: center;
         gap: 20px;
     }

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* Reset basic styles */
+=======
+
+>>>>>>> Cameroon
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +10,17 @@
     font-family: Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 /* Header and navigation container */
 header {
     width: 100%;
     background-color: #0b3d91; /* Deep blue */
+=======
+/* start of navigation*/
+header {
+    width: 100%;
+    background-color: #0b3d91; 
+>>>>>>> Cameroon
     padding: 10px 20px;
 }
 
@@ -59,7 +70,10 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     color:white;
+=======
+>>>>>>> Cameroon
     font-size: 2em;
     font-weight: bolder;
 }
@@ -218,7 +232,11 @@ nav ul li a:hover {
     display: block;
 }
 
+<<<<<<< HEAD
 /* Optional: Remove default button focus outline but keep accessibility */
+=======
+
+>>>>>>> Cameroon
 .lang-select:focus {
     outline: none;
 }
@@ -286,6 +304,7 @@ nav ul li a:hover {
 }
 
 
+<<<<<<< HEAD
 
 
 
@@ -294,6 +313,12 @@ nav ul li a:hover {
 
 footer {
     background-color: #0b3d91; /* deep blue */
+=======
+/*start of footer style*/
+
+footer {
+    background-color: #0b3d91; 
+>>>>>>> Cameroon
     color: #fff;
     padding: 50px 20px;
     font-family: Arial, sans-serif;
@@ -302,7 +327,11 @@ footer {
 /* Grid container */
 .footer-grid {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+=======
+    grid-template-columns: repeat(3, 1fr); 
+>>>>>>> Cameroon
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
@@ -321,7 +350,11 @@ footer {
     font-size: 1.2rem;
     margin-bottom: 10px;
     text-transform: uppercase;
+<<<<<<< HEAD
     color: #ffd700; /* gold accent for heading */
+=======
+    
+>>>>>>> Cameroon
 }
 
 /* Visiting Hours Column */
@@ -364,7 +397,11 @@ footer {
 /* Responsive for tablets and mobile */
 @media screen and (max-width: 768px) {
     .footer-grid {
+<<<<<<< HEAD
         grid-template-columns: 1fr; /* stack columns */
+=======
+        grid-template-columns: 1fr; 
+>>>>>>> Cameroon
         text-align: center;
         gap: 20px;
     }
@@ -381,17 +418,27 @@ footer {
 /* the start of the styling of the main area of my culture page*/
 .culture-page {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr 1fr; /* 2 equal columns */
     gap: 2rem; /* space between grid items */
     padding: 2rem;
 }
 
 /* Make all h1 and h2 headings red */
+=======
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem; 
+    padding: 2rem;
+}
+
+
+>>>>>>> Cameroon
 .culture-page h1,
 .culture-page h2 {
     color: red;
 }
 
+<<<<<<< HEAD
 /* Ensure all images inside .culture-page are uniform */
 .culture-page img {
     width: 100%;       /* full width of container */
@@ -403,6 +450,19 @@ footer {
 }
 
 /* Optional: spacing for paragraphs */
+=======
+
+.culture-page img {
+    width: 100%;       
+    max-width: 100%;   
+    height: auto;      
+    border-radius: 8px;
+    margin-top: 1rem;
+    display: block;    
+}
+
+
+>>>>>>> Cameroon
 .culture-page p {
     margin-top: 0.5rem;
     line-height: 1.6;
@@ -411,6 +471,7 @@ footer {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -422,6 +483,12 @@ footer {
 
 footer {
     background-color: #0b3d91; /* deep blue */
+=======
+/*start of footer style*/
+
+footer {
+    background-color: #0b3d91; 
+>>>>>>> Cameroon
     color: #fff;
     padding: 50px 20px;
     font-family: Arial, sans-serif;
@@ -430,7 +497,11 @@ footer {
 /* Grid container */
 .footer-grid {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+=======
+    grid-template-columns: repeat(3, 1fr); 
+>>>>>>> Cameroon
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
@@ -449,7 +520,11 @@ footer {
     font-size: 1.2rem;
     margin-bottom: 10px;
     text-transform: uppercase;
+<<<<<<< HEAD
     color: #ffd700; /* gold accent for heading */
+=======
+    
+>>>>>>> Cameroon
 }
 
 /* Visiting Hours Column */
@@ -492,7 +567,11 @@ footer {
 /* Responsive for tablets and mobile */
 @media screen and (max-width: 768px) {
     .footer-grid {
+<<<<<<< HEAD
         grid-template-columns: 1fr; /* stack columns */
+=======
+        grid-template-columns: 1fr; 
+>>>>>>> Cameroon
         text-align: center;
         gap: 20px;
     }
@@ -512,12 +591,21 @@ footer {
 /* the start of the styling of the main area of my culture page*/
 .culture-page {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr 1fr; /* 2 equal columns */
     gap: 2rem; /* space between grid items */
     padding: 2rem;
 }
 
 /* Make all h1 and h2 headings red */
+=======
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem; 
+    padding: 2rem;
+}
+
+
+>>>>>>> Cameroon
 .culture-page h1,
 .culture-page h2 {
     color: red;
@@ -525,6 +613,7 @@ footer {
 
 /* Ensure all images inside .culture-page are uniform */
 .culture-page img {
+<<<<<<< HEAD
     width: 100%;       /* full width of container */
     max-width: 100%;   /* prevent overflow */
     height: auto;      /* maintain aspect ratio */
@@ -534,6 +623,17 @@ footer {
 }
 
 /* Optional: spacing for paragraphs */
+=======
+    width: 100%;       
+    max-width: 100%;   
+    height: auto;      
+    border-radius: 8px;
+    margin-top: 1rem;
+    display: block;    
+}
+
+
+>>>>>>> Cameroon
 .culture-page p {
     margin-top: 0.5rem;
     line-height: 1.6;

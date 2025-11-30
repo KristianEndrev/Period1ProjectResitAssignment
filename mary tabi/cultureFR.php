@@ -165,7 +165,11 @@ unset($lang_options[$current_lang]);
             </p>
             <p>
                 <a href="tel:+237675799739">
+<<<<<<< HEAD
                     <img src="images/good_phone.png" alt="Icône téléphone">
+=======
+                    <img src="images/images/phone/good_phone.png" alt="Icône téléphone">
+>>>>>>> Cameroon
                     +237675799739
                 </a>
             </p>

@@ -32,7 +32,11 @@ unset($lang_options[$current_lang]);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Document</title>
+=======
+    <title>Bienvenue Au Cameroon</title>
+>>>>>>> Cameroon
     <link rel="stylesheet" href="test.css">
     
 </head>
@@ -140,7 +144,11 @@ unset($lang_options[$current_lang]);
             </p>
             <p>
                 <a href="tel:+237675799739">
+<<<<<<< HEAD
                     <img src="images/good_phone.png" alt="Icône téléphone">
+=======
+                    <img src="images/images/phone/good_phone.png" alt="Icône téléphone">
+>>>>>>> Cameroon
                     +237675799739
                 </a>
             </p>
