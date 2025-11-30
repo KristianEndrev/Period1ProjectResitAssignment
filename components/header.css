@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('fonts/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #79A2D4;
+    color: white;
+    padding-inline: 1vw;
+    padding-block: 1vh;
+    font-size: 16px;
+    font-family: 'opensans-bold';
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vw;
+    color: white;
+}
+
+.logo a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.logo img
+{
+    width: 2vw;
+    height: 2vh;
+}
+
+nav ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2vw;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: white;
+}
+
+header a {
+  color: #fff;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  color: #ffffff;
+}
+
+header a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1.5px;
+    width: 0;
+    background-color: #fff;
+    text-align: right;
+    opacity: 0;
+    transition: width 0.7s ease, opacity 0.5s ease;
+}
+
+header a:hover::after{
+    width: 100%;
+    opacity: 1;
+}
