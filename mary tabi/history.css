@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/* Reset basic styles */
-=======
 
->>>>>>> Cameroon
 * {
     margin: 0;
     padding: 0;
@@ -10,17 +6,17 @@
     font-family: Arial, sans-serif;
 }
 
-<<<<<<< HEAD
+
 /* Header and navigation container */
 header {
     width: 100%;
-    background-color: #0b3d91; /* Deep blue */
-=======
+    background-color: #0b3d91; 
+    padding: 10px 20px;
+}
 /* start of navigation*/
 header {
     width: 100%;
     background-color: #0b3d91; 
->>>>>>> Cameroon
     padding: 10px 20px;
 }
 
@@ -229,10 +225,9 @@ nav ul li a:hover {
     display: block;
 }
 
-<<<<<<< HEAD
+
 /* Optional: Remove default button focus outline but keep accessibility */
-=======
->>>>>>> Cameroon
+
 .lang-select:focus {
     outline: none;
 }
@@ -299,35 +294,28 @@ nav ul li a:hover {
   }
 }
 
-
-<<<<<<< HEAD
-
-
-
 /* /*start of my footer style */
 /*start of footer style*/
 
 footer {
     background-color: #0b3d91; /* deep blue */
-=======
+}
 /*start of footer style*/
 
 footer {
     background-color: #0b3d91; 
->>>>>>> Cameroon
+
     color: #fff;
     padding: 50px 20px;
     font-family: Arial, sans-serif;
 }
 
-/* Grid container */
+
 .footer-grid {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-=======
     grid-template-columns: repeat(3, 1fr); 
->>>>>>> Cameroon
+
+    grid-template-columns: repeat(3, 1fr); 
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
@@ -389,11 +377,8 @@ footer {
 /* Responsive for tablets and mobile */
 @media screen and (max-width: 768px) {
     .footer-grid {
-<<<<<<< HEAD
         grid-template-columns: 1fr; /* stack columns */
-=======
         grid-template-columns: 1fr; 
->>>>>>> Cameroon
         text-align: center;
         gap: 20px;
     }
@@ -412,13 +397,10 @@ footer {
 /*my history main page style*/
 .history-page {
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: repeat(2, 1fr); /* two equal columns */
     gap: 40px; /* space between columns and rows */
-=======
     grid-template-columns: repeat(2, 1fr); 
     gap: 40px; 
->>>>>>> Cameroon
     max-width: 1200px;
     margin: 50px auto;
     padding: 0 20px;
@@ -426,11 +408,7 @@ footer {
     color: #333;
 }
 
-<<<<<<< HEAD
-/* Each history block: paragraph on top, image below */
-=======
 
->>>>>>> Cameroon
 .history-page > div {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -443,28 +421,24 @@ footer {
     line-height: 1.6;
 }
 
-<<<<<<< HEAD
 /* Images: same size, occupy full column */
 .history-page img {
     width: 100%;
     height: 300px; /* uniform height */
     object-fit: cover; /* crop and fill container */
-=======
 
+}
 .history-page img {
     width: 100%;
     height: 300px; 
     object-fit: cover; 
->>>>>>> Cameroon
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-<<<<<<< HEAD
-/* Optional: alternate background for blocks */
-=======
 
->>>>>>> Cameroon
+/* Optional: alternate background for blocks */
+
 .history-page > div:nth-child(odd) {
     background-color: #f9f9f9;
     padding: 15px;
@@ -474,20 +448,19 @@ footer {
 /* Responsive: stack columns and adjust image height */
 @media screen and (max-width: 768px) {
     .history-page {
-<<<<<<< HEAD
+
         grid-template-columns: 1fr; /* single column */
-=======
         grid-template-columns: 1fr; 
->>>>>>> Cameroon
+
         gap: 30px;
     }
 
     .history-page img {
-<<<<<<< HEAD
+
         height: 250px; /* slightly smaller for mobile */
-=======
+
         height: 250px; 
->>>>>>> Cameroon
+
     }
 }
 

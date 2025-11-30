@@ -30,11 +30,7 @@ unset($lang_options[$current_lang]);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>Welcome To Cameroon</title>
-=======
     <title>Wecome To Cameroon</title>
->>>>>>> Cameroon
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -47,19 +43,11 @@ unset($lang_options[$current_lang]);
             </div>
             <nav>
                 <ul>
-<<<<<<< HEAD
-                    <li><a href="index.php">PAGE D'ACCUEIL</a></li>
-                     <li><a href="tourism.php">TOURISME</a></li>
-                      <li><a href="culture.php">CULTURE</a></li>
-                       <li><a href="history.php">HISTOIRE</a></li>
-                        <li><a href="food.php">GASTRONOMIE</a></li>
-=======
                     <li><a href="index.php">HOMEPAGE</a></li>
                      <li><a href="tourism.php">TOURISM</a></li>
                       <li><a href="culture.php">CULTURE</a></li>
                        <li><a href="history.php">HISTORY</a></li>
                         <li><a href="food.php">FOOD</a></li>
->>>>>>> Cameroon
                 </ul>
             </nav>
             
@@ -88,11 +76,7 @@ unset($lang_options[$current_lang]);
         
     <div class="hero-page">
         <div class="welcome-home">
-<<<<<<< HEAD
-            <h1>BIENVENUE AU CAMEROUN</h1>
-=======
             <h1>Welcome To Cameroon</h1>
->>>>>>> Cameroon
      </div>
 
     </div>
@@ -105,28 +89,16 @@ unset($lang_options[$current_lang]);
     <!-- Adresse -->
         <div class="footer-address">
            
-<<<<<<< HEAD
-            <span>NOTRE EMPLACEMENT</span>
-            <span>RUE DES AMIE AKWA</span>
-            <span>EN FACE DE LA BANQUE AGBC</span>
-=======
              <span>OUR LOCATION</span>
             <span>RUE DES AMIE AKWA</span>
             <span>EN FACE AGBC BANK</span>
->>>>>>> Cameroon
         </div>
         
         <div class="visiting-hours">
             <ul>
-<<<<<<< HEAD
-                    <li>Lundi - 16h-17h30</li>
-                    <li>Jeudi - 14h-18h</li>
-                    <li>Samedi - 9h-13h</li>
-=======
             <span>OUR LOCATION</span>
             <span>RUE DES AMIE AKWA</span>
             <span>EN FACE AGBC BANK</span>
->>>>>>> Cameroon
                     
                 </ul>
         </div>
@@ -143,11 +115,7 @@ unset($lang_options[$current_lang]);
             </p>
             <p>
                 <a href="tel:+237675799739">
-<<<<<<< HEAD
-                    <img src="images/images/good_phone.png" alt="Icône téléphone">
-=======
                     <img src="images/images/phone/good_phone.png" alt="Icône téléphone">
->>>>>>> Cameroon
                     +237675799739
                 </a>
             </p>

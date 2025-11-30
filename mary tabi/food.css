@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 /* Reset basic styles */
-=======
-
->>>>>>> Cameroon
 * {
     margin: 0;
     padding: 0;
@@ -10,17 +6,10 @@
     font-family: Arial, sans-serif;
 }
 
-<<<<<<< HEAD
 /* Header and navigation container */
 header {
     width: 100%;
     background-color: #0b3d91; /* Deep blue */
-=======
-
-header {
-    width: 100%;
-    background-color: #0b3d91; 
->>>>>>> Cameroon
     padding: 10px 20px;
 }
 
@@ -58,11 +47,7 @@ nav ul li a:hover {
     color: #0b3d91;
 }
 
-<<<<<<< HEAD
 /* Language dropdown container */
-=======
-
->>>>>>> Cameroon
 .lang-container {
     position: relative;
     display: inline-block;
@@ -87,20 +72,12 @@ nav ul li a:hover {
     height: 13px;
 }
 
-<<<<<<< HEAD
 /* Arrow for dropdown */
-=======
-
->>>>>>> Cameroon
 .arrow {
     font-size: 12px;
 }
 
-<<<<<<< HEAD
 /* Dropdown menu */
-=======
-
->>>>>>> Cameroon
 .lang-dropdown {
     position: absolute;
     top: 120%;
@@ -115,10 +92,7 @@ nav ul li a:hover {
     z-index: 100;
 }
 
-<<<<<<< HEAD
 /* Dropdown items */
-=======
->>>>>>> Cameroon
 .lang-dropdown li a {
     display: flex;
     align-items: center;
@@ -138,11 +112,7 @@ nav ul li a:hover {
     display: block;
 }
 
-<<<<<<< HEAD
 /* Responsive: stack menu on small screens */
-=======
-
->>>>>>> Cameroon
 @media screen and (max-width: 768px) {
     .navigation {
         flex-direction: column;
@@ -313,17 +283,10 @@ nav ul li a:hover {
 /* Each food section stacked content */
 .food-1,
 .food-2,
-<<<<<<< HEAD
 .tourism-3,
 .food-4 {
     display: grid;
     grid-template-rows: auto 1fr auto; /* headings, paragraph, image */
-=======
-.food-3,
-.food-4 {
-    display: grid;
-    grid-template-rows: auto 1fr auto; 
->>>>>>> Cameroon
     gap: 15px;
 }
 
@@ -361,17 +324,10 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
-<<<<<<< HEAD
 /* Responsive: stack columns on smaller screens */
 @media screen and (max-width: 992px) {
     .food-page {
         grid-template-columns: 1fr; /* single column */
-=======
-
-@media screen and (max-width: 992px) {
-    .food-page {
-        grid-template-columns: 1fr; 
->>>>>>> Cameroon
         gap: 30px;
     }
 
@@ -393,7 +349,6 @@ nav ul li a:hover {
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -403,12 +358,6 @@ nav ul li a:hover {
 
 footer {
     background-color: #0b3d91; /* deep blue */
-=======
-/*start of footer style*/
-
-footer {
-    background-color: #0b3d91;
->>>>>>> Cameroon
     color: #fff;
     padding: 50px 20px;
     font-family: Arial, sans-serif;
@@ -417,21 +366,14 @@ footer {
 /* Grid container */
 .footer-grid {
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-=======
-    grid-template-columns: repeat(3, 1fr); 
->>>>>>> Cameroon
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
     align-items: start;
 }
 
-<<<<<<< HEAD
 /* Address Column */
-=======
->>>>>>> Cameroon
 .footer-address {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -446,10 +388,7 @@ footer {
 
 }
 
-<<<<<<< HEAD
 /* Visiting Hours Column */
-=======
->>>>>>> Cameroon
 .visiting-hours ul {
     list-style: none;
     padding: 0;
@@ -460,10 +399,7 @@ footer {
     line-height: 1.5;
 }
 
-<<<<<<< HEAD
 /* Contact Info Column */
-=======
->>>>>>> Cameroon
 .footer-contact p {
     display: flex;
     align-items: center;
