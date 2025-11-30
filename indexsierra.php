@@ -33,7 +33,7 @@ if ($hour < 12) {
     <div class="header-container">
         <div class="site-title"><?php echo $country; ?>: Lion Mountains</div>
         <nav class="main-nav">
-            <a href="index.php" class="active">Home</a>
+            <a href="indexsierra.php" class="active">Home</a>
             <a href="facts.php">Facts</a>
             <a href="culture.php">Culture</a>
             <a href="food.php">Food</a>

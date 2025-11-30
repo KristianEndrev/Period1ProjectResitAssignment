@@ -33,9 +33,9 @@ $cultureImages = [
 
 <header>
     <div class="header-container">
-        <div class="site-title"><?php echo $country; ?>: Land of Lion Mountains</div>
+        <div class="site-title"><?php echo $country; ?>: Lion Mountains</div>
         <nav class="main-nav">
-            <a href="index.php">Home</a>
+            <a href="indexsierra.php">Home</a>
             <a href="facts.php">Facts</a>
             <a href="culture.php" class="active">Culture</a>
             <a href="food.php">Food</a>

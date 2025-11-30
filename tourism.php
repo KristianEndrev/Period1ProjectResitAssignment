@@ -10,7 +10,7 @@ $errors = [];
 $places = [
     "Lumley Beach",
     "Tokeh Beach",
-    "Banana Islands",
+    "Banana Island",
     "Tacugama Chimpanzee Sanctuary",
     "Bunce Island"
 ];
@@ -25,7 +25,7 @@ $attractions = [
         "description" => "A safe haven for rescued chimpanzees located in the rainforest, offering eco-lodges."
     ],
     [
-        "name" => "Banana Islands", "type" => "Islands", "region" => "Western Area",
+        "name" => "Banana Island", "type" => "Islands", "region" => "Western Area",
         "description" => "Offshore islands with small communities, calm beaches, and history."
     ]
 ];
@@ -60,9 +60,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <header>
     <div class="header-container">
-        <div class="site-title"><?php echo $country; ?>: Land of Lion Mountains</div>
+        <div class="site-title"><?php echo $country; ?>: Lion Mountains</div>
         <nav class="main-nav">
-            <a href="index.php">Home</a>
+            <a href="indexsierra.php">Home</a>
             <a href="facts.php">Facts</a>
             <a href="culture.php">Culture</a>
             <a href="food.php">Food</a>
@@ -83,7 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             </p>
             <p>
                 The Freetown Peninsula is famous for beaches such as Lumley Beach, which is lively and close to the city, 
-                and Tokeh Beach, which is quieter and more relaxed. Offshore, the Banana Islands offer calm beaches, 
+                and Tokeh Beach, which is quieter and more relaxed. Offshore, the Banana Island offer calm beaches, 
                 small communities, and opportunities for swimming, snorkelling, and enjoying fresh seafood.
             </p>
         </div>
