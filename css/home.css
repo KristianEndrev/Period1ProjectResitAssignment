@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('../fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-italic';
+    src: url('../fonts/Open_Sans/static/OpenSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('../fonts/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-bold-italic';
+    src: url('../fonts/Open_Sans/static/OpenSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'opensans-light';
+    src: url('../fonts/Open_Sans/static/OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-light-italic';
+    src: url('../fonts/Open_Sans/static/OpenSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'opensans-medium';
+    src: url('../fonts/Open_Sans/static/OpenSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-meidum-italic';
+    src: url('../fonts/Open_Sans/static/OpenSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'opensans-semi-bold';
+    src: url('../fonts/Open_Sans/static/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-semi-bold-italic';
+    src: url('../fonts/Open_Sans/static/OpenSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'opensans-extra-bold';
+    src: url('../fonts/Open_Sans/static/OpenSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-extra-bold-italic';
+    src: url('../fonts/Open_Sans/static/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+body
+{
+    font-family: 'opensans-bold';
+    margin: 0;
+    background-color: #79A2D4;
+    overflow-x: hidden;
+}
+
+.hero-image
+{
+    width: 100%;
+    height: 91.5vh;
+    position: relative;
+}
+
+.hero-text-box
+{
+    background-color: #2A4178;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    width: 50vw;
+    height: 30vh;
+    border-radius: 2vw;
+    align-items: center;
+    position: absolute;
+    top: 42vw;
+    left: 53vw;
+    transition: transform 3s ease, box-shadow 1s ease;
+}
+
+.hero-text-box:hover
+{
+    transform: translateX(-110%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+}
+
+.left-hero-text h2, h3 ,h4
+{
+    margin: 0;
+}
+
+.left-hero-text
+{
+    line-height: 5vh;
+    text-align: center;
+    padding: 3vw;
+    align-items: center;
+}
+
+.admire-text
+{
+    color: white;
+    justify-self: center;
+    text-shadow: 0 10px 30px rgba(42, 65, 120, 1);
+    font-size: 3em;
+}
+
+.admire-line
+{
+    border-top: 0.5px solid rgb(42, 65, 120);
+}
+
+.admire-box
+{
+    margin-top: 20vh;
+}
+
+.vertical-line
+{
+    border: 1.5px solid #79A2D4;
+    height: 29.2vh;
+    margin: 0;
+}
+
+.right-hero-text p
+{
+   margin: 0;
+   line-height: 3vh;
+}
+
+.right-hero-text
+{
+     padding: 3vw;
+     align-items: center;
+     padding-top: 6.5vh;
+     padding-right: 5vw;
+     font-size: 18px;
+}
+
+.video
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25vh;
+    margin-top: 10vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 1vw;
+    padding-inline: 2vw;
+    padding-block: 1vw;
+    justify-self: center;
+}
+
+video
+{
+    width: 90vw;
+    height: auto;
+    border-radius: 1vw;
+}
+
+.white-box1
+{
+    background-color: white;
+    width: 70vw;
+    height: 40vh;
+    border-radius: 2vw;
+    display: flex;
+    align-items: center;
+    margin-left: -1.5vw;
+}
+
+.dark-blue-box1
+{
+    background-color: #2A4178;
+    color: white;
+    width: 68vw;
+    height: 35vh;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark-blue-box1 p
+{
+    max-width: 60vw;
+}
+
+.map
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw;
+    margin-top: 25vh;
+    gap: 5vw;
+}
+
+.bulgaria-map
+{
+    width: 50%;
+    height: 50vh;
+    border: 0;
+    border-radius: 2vw;
+}
+
+.white-box2
+{
+    background-color: white;
+    width: 50%;
+    height: 50vh;
+    border-radius: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: -7vw;
+}
+
+.dark-blue-box2
+{
+    background-color: #2A4178;
+    color: white;
+    width: 43vw;
+    height: 45vh;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark-blue-box2 ul
+{
+    max-width: 35vw;
+    line-height: 5vh;
+}
+
+.horizontal-line
+{
+    border: 1px solid white;
+    width: 50vw;
+    justify-self: center;
+    margin-bottom: 10vh;
+    margin-top: 20vh;
+}
+
+.reveal-left
+{
+    animation: reveal-left both;
+    animation-timeline: view(80% 0%);
+}
+
+@keyframes reveal-left
+{
+    from {
+        opacity: 0;
+        transform: translateX(-1000px) scale(0.3);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+
+.reveal-right
+{
+    animation: reveal-right both;
+    animation-timeline: view(80% 0%);
+}
+
+@keyframes reveal-right
+{
+    from {
+        opacity: 0;
+        transform: translateX(1000px) scale(0.3);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
