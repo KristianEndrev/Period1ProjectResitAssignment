@@ -13,7 +13,7 @@
             <p>Choose a country to explore its history, culture, food and traditions.</p>
         </div>
         <div class="countries">
-            <a href="">
+            <a href="indexsierra.php">
                 <div class="country-card">
                     <img src="images/INDEX/flag_sierra_leone.png" alt="Flag of Sierra Leone">
                         <h1>Sierra Leone</h1>
@@ -27,7 +27,7 @@
                         <p>Mountains, monasteries and rich folklore in the heart of the Balkans.</p>
                 </div>
             </a>
-            <a href="">
+            <a href="mary tabi/index.php">
                 <div class="country-card">
                     <img src="images/INDEX/flag_cameroon.png" alt="Flag of Sierra Leone">
                         <h1>Cameroon</h1>
